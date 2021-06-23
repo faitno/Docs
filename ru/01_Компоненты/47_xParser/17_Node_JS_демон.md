@@ -65,6 +65,10 @@ pm2 startup upstart
 pm2 monit
 ```
 
+Демон можно запустить и через прокси, для этого достаточно использовать proxychains45:
+```
+proxychains4 node app.js --name=xParserDaemon
+```
 
 ### Настройка демона в компоненте
 
